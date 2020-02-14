@@ -1,0 +1,63 @@
+.inputfile + label {
+    max-width: 80%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+
+.iborrainputfile {
+	font-size:16px; 
+	font-weight:normal;
+	font-family: 'Lato';
+}
+.ocultar{
+    display: none;
+}
+.error, .error_count{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    background: #ff2515ed;
+    z-index: 10;
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+}
+.close span{
+    color:#fff;
+    float:right;
+    cursor: pointer;
+}
+.con{
+    width: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.contentido{
+    width: 800px;
+    height: 400px;
+    background: red;
+    z-index: 1;
+}
+
